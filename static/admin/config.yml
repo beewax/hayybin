@@ -1,6 +1,6 @@
 ﻿backend:
   name: github
-  repo: beewax/thinktank-site
+  repo: beewax/hayybin
   branch: main
 
 i18n:
