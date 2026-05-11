@@ -1,5 +1,5 @@
-baseURL = "/"
-title = "Think Tank"
+﻿baseURL = "/"
+title = "Hayybin"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
@@ -14,37 +14,37 @@ paginate = 10
     languageName = "English"
     languageDirection = "ltr"
     weight = 1
-    title = "Think Tank — Policy Research & Analysis"
+    title = "Hayybin"
     [languages.en.params]
-      description = "Independent research and policy analysis"
+      description = "A blog about Technology, Lifestyle, Culture & Economics"
 
   [languages.ar]
     languageName = "العربية"
     languageDirection = "rtl"
     weight = 2
-    title = "مركز الأبحاث — بحوث وتحليل السياسات"
+    title = "حيبن"
     [languages.ar.params]
-      description = "بحوث مستقلة وتحليل سياسات للتنمية الوطنية"
+      description = "مدونة عن التقنية وأسلوب الحياة والثقافة والاقتصاد"
 
 [[languages.en.menus.main]]
   name = "Home"
   url = "/"
   weight = 1
 [[languages.en.menus.main]]
-  name = "Research"
-  url = "/research/"
+  name = "Technology"
+  url = "/categories/technology/"
   weight = 2
 [[languages.en.menus.main]]
-  name = "News"
-  url = "/news/"
+  name = "Lifestyle"
+  url = "/categories/lifestyle/"
   weight = 3
 [[languages.en.menus.main]]
-  name = "Reports"
-  url = "/reports/"
+  name = "Culture"
+  url = "/categories/culture/"
   weight = 4
 [[languages.en.menus.main]]
-  name = "Videos"
-  url = "/videos/"
+  name = "Economics"
+  url = "/categories/economics/"
   weight = 5
 
 [[languages.ar.menus.main]]
@@ -52,20 +52,20 @@ paginate = 10
   url = "/"
   weight = 1
 [[languages.ar.menus.main]]
-  name = "الأبحاث"
-  url = "/research/"
+  name = "التقنية"
+  url = "/categories/technology/"
   weight = 2
 [[languages.ar.menus.main]]
-  name = "الأخبار"
-  url = "/news/"
+  name = "أسلوب الحياة"
+  url = "/categories/lifestyle/"
   weight = 3
 [[languages.ar.menus.main]]
-  name = "التقارير"
-  url = "/reports/"
+  name = "الثقافة"
+  url = "/categories/culture/"
   weight = 4
 [[languages.ar.menus.main]]
-  name = "الفيديو"
-  url = "/videos/"
+  name = "الاقتصاد"
+  url = "/categories/economics/"
   weight = 5
 
 [markup]
